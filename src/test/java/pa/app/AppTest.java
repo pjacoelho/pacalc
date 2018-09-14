@@ -30,7 +30,7 @@ class AppTest {
 		int x = 5;
 		int y = 1;
 		
-		int sub = x-y;
+		int sub = x-y; 
 		assertTrue(a.sub(x,y)==sub);
 	}
 
