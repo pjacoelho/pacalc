@@ -8,11 +8,7 @@ public class App
 	private static Logger logger = Logger.getLogger(App.class.getName());
 	
 	
-    // --------------- Metodo principal
     public static void main (String args[]){ 
-        //criando um objeto c a apartir do metodo calc  
-        //Calc c = new Calc();  
-        //declarando as varíaveis  
         int opcao = 5;  
         int num1;  
         int num2;  
@@ -55,10 +51,8 @@ public class App
 				System.out.println("????");  
 				break;  
 			}      
-        } // fim do while - usuario optou por sair
-    }  // fim do metodo principal
-
-    /*Declaração dos métodos*/  
+        } 
+    }  
     public static int som(int num1, int num2) {
         return num1 + num2;
     }  
